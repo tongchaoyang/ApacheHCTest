@@ -1,0 +1,330 @@
+341229,Beverages
+338972,Organic
+341230,Condiments Spices & Baking
+339006,Condiments Spices & Baking
+347904,Breakfast & Cereal
+339008,Cookies Snacks & Candy
+338987,Bread & Bakery
+338746,General
+338691,General
+338964,General
+338701,General
+338551,General
+338619,General
+338809,General
+338545,General
+338587,General
+338573,Frozen foods
+338488,Frozen foods
+338684,Personal care Health & Pharmacy
+338492,Personal care Health & Pharmacy
+338500,General
+338599,General
+338861,General
+338863,General
+338520,General
+338728,General
+338919,General
+338693,General
+338842,General
+338510,Dairy Eggs & Cheese
+338662,Dairy Eggs & Cheese
+338546,Dairy Eggs & Cheese
+338843,Dairy Eggs & Cheese
+338469,Dairy Eggs & Cheese
+338597,Dairy Eggs & Cheese
+338509,General
+338938,Dairy Eggs & Cheese
+338821,Dairy Eggs & Cheese
+338589,Dairy Eggs & Cheese
+337834,General
+338820,General
+338867,General
+338484,General
+338789,Dairy Eggs & Cheese
+338743,Frozen foods
+338529,General
+338742,General
+338732,General
+338618,Dairy Eggs & Cheese
+338934,General
+338874,Dairy Eggs & Cheese
+338815,Dairy Eggs & Cheese
+338768,Dairy Eggs & Cheese
+338884,General
+338729,General
+338669,General
+338641,General
+338998,Condiments Spices & Baking
+338974,Personal care Health & Pharmacy
+338948,Frozen foods
+338824,General
+338822,General
+338602,General
+338623,General
+338892,General
+338697,General
+338499,General
+338870,General
+338926,General
+338925,General
+338502,General
+338959,General
+338791,Dairy Eggs & Cheese
+338804,General
+338598,General
+338577,General
+338760,General
+338495,General
+338511,General
+338782,General
+338725,General
+338515,General
+338825,General
+338532,General
+338992,Condiments Spices & Baking
+338981,Condiments Spices & Baking
+338794,General
+338811,General
+338885,General
+338548,General
+338498,General
+338952,Dairy Eggs & Cheese
+338686,General
+341228,Cookies Snacks & Candy
+338770,General
+338530,General
+338658,General
+338828,General
+338810,General
+338977,Cookies Snacks & Candy
+338664,General
+338651,General
+338561,Frozen foods
+338491,Frozen foods
+338538,Dairy Eggs & Cheese
+338771,Dairy Eggs & Cheese
+338864,Dairy Eggs & Cheese
+338682,Dairy Eggs & Cheese
+338567,General
+338541,General
+338627,Dairy Eggs & Cheese
+338531,Personal care Health & Pharmacy
+338898,Personal care Health & Pharmacy
+338813,General
+338631,General
+338526,General
+338915,General
+338757,General
+338479,General
+338751,General
+338816,General
+338713,General
+338753,General
+338610,General
+338807,General
+338649,General
+338672,General
+338680,General
+338681,General
+338738,General
+338761,General
+338762,General
+338764,General
+338779,General
+338901,General
+338903,General
+338905,General
+338966,General
+338967,Frozen foods
+338970,Dairy Eggs & Cheese
+338512,Meat & Seafood
+338879,Frozen foods
+338890,Frozen foods
+338922,General
+338643,General
+338695,Frozen foods
+338710,General
+338712,General
+338716,Frozen foods
+338721,General
+338648,General
+338647,General
+338624,Dairy Eggs & Cheese
+338616,General
+338593,General
+338579,General
+338544,Frozen foods
+338489,Meat & Seafood
+344242,Meat & Seafood
+344241,Meat & Seafood
+338955,Frozen foods
+344239,Meat & Seafood
+344240,Meat & Seafood
+338954,General
+338953,General
+338845,General
+338951,General
+338575,General
+338671,General
+338759,General
+338766,Personal care Health & Pharmacy
+338735,Personal care Health & Pharmacy
+338830,Personal care Health & Pharmacy
+338549,Personal care Health & Pharmacy
+338507,Personal care Health & Pharmacy
+338774,Personal care Health & Pharmacy
+338940,Personal care Health & Pharmacy
+339003,Condiments Spices & Baking
+339000,Condiments Spices & Baking
+338997,Condiments Spices & Baking
+338994,Condiments Spices & Baking
+338993,Condiments Spices & Baking
+338973,Condiments Spices & Baking
+338552,Personal care Health & Pharmacy
+341226,Cookies Snacks & Candy
+338853,General
+338888,General
+338882,General
+338640,General
+338637,General
+338659,Personal care Health & Pharmacy
+338930,Personal care Health & Pharmacy
+338793,Personal care Health & Pharmacy
+338478,General
+341200,General
+341201,General
+341199,General
+341198,General
+338878,Meat & Seafood
+338924,Meat & Seafood
+338916,General
+338592,General
+338594,General
+338881,Deli
+338657,General
+338504,General
+338848,Deli
+338836,Deli
+338714,General
+338703,General
+338601,General
+338571,General
+338535,General
+338788,General
+338857,General
+338653,General
+338514,Bread & Bakery
+338595,General
+338733,Dairy Eggs & Cheese
+338554,Personal care Health & Pharmacy
+338949,Bread & Bakery
+338596,General
+338832,General
+338543,General
+338891,General
+338562,Personal care Health & Pharmacy
+338566,Personal care Health & Pharmacy
+338734,Personal care Health & Pharmacy
+338677,General
+338838,General
+338578,General
+338780,General
+338705,Personal care Health & Pharmacy
+338476,Personal care Health & Pharmacy
+338472,General
+338539,General
+338883,General
+338872,General
+338572,General
+338565,General
+338652,Personal care Health & Pharmacy
+338765,General
+338826,General
+338600,Dairy Eggs & Cheese
+338839,Personal care Health & Pharmacy
+338660,Dairy Eggs & Cheese
+338920,Deli
+347902,General
+338786,General
+338989,Organic
+347901,General
+347899,General
+338999,General
+347906,General
+341363,General
+341364,General
+341365,General
+347900,General
+347905,General
+341362,General
+338996,General
+338855,General
+338829,General
+338615,General
+338704,General
+338501,General
+338534,General
+338943,General
+338698,General
+338718,Personal care Health & Pharmacy
+338876,General
+338603,General
+338833,General
+338875,General
+338542,General
+338787,General
+338656,General
+338887,Personal care Health & Pharmacy
+338523,Dairy Eggs & Cheese
+338586,Deli
+338800,General
+338921,General
+338971,General
+338628,Personal care Health & Pharmacy
+338911,Personal care Health & Pharmacy
+338494,General
+338617,General
+339004,General
+338683,General
+338707,General
+338957,General
+338937,Frozen foods
+338620,General
+338834,Personal care Health & Pharmacy
+338941,Personal care Health & Pharmacy
+338776,Meat & Seafood
+338918,General
+338773,General
+338720,General
+338823,Personal care Health & Pharmacy
+338633,General
+338569,General
+338873,General
+338965,Dairy Eggs & Cheese
+338931,Dairy Eggs & Cheese
+338635,Personal care Health & Pharmacy
+338560,Personal care Health & Pharmacy
+338636,Personal care Health & Pharmacy
+338485,General
+338862,General
+338960,General
+338690,General
+338778,General
+338724,General
+338835,General
+338799,General
+338629,General
+338859,General
+338745,General
+339001,Personal care Health & Pharmacy
+338852,Personal care Health & Pharmacy
+338945,Personal care Health & Pharmacy
+338818,Personal care Health & Pharmacy
+338868,Personal care Health & Pharmacy
+338497,Personal care Health & Pharmacy
+338990,Personal care Health & Pharmacy
+338975,Personal care Health & Pharmacy
+339010,General
+338982,Organic
+347903,Breakfast & Cereal
