@@ -25,49 +25,40 @@ import com.fasterxml.jackson.databind.ObjectMapper;
  */
 public final class App {
     private static Logger logger = LoggerFactory.getLogger(App.class);
+    private static CloseableHttpClient httpclient = HttpClients.createDefault();
 
     private App() {
     }
 
-    public static void main(String[] args) throws IOException {
-        CloseableHttpClient httpclient = HttpClients.createDefault();
+    public static List<Coupon> getCoupons(String url) throws IOException {
         logger.info("Calling server");
-        HttpGet httpget = new HttpGet(
-                "https://staging2.softcoin.com/p/ws/1/coupons/show.json?site_id=12420&retailer_family_id=1071&mac=gsbCKwLBbT0sifdoS4hUrf7NnE4%3D");
+        HttpGet httpget = new HttpGet(url);
         CloseableHttpResponse response = null;
-        BufferedWriter bw = null;
+        List<Coupon> coupons = null;
 
         try {
             response = httpclient.execute(httpget);
             StatusLine status = response.getStatusLine();
             if (status.getStatusCode() != 200) {
                 logger.error("Service call failed. " + status.getReasonPhrase());
-                return;
+                throw new IOException(status.getReasonPhrase());
             }
             else {
-                logger.info("Call finished");
+                logger.info("Call finished sucessfully");
             }
-
-            File file = new File("Coupons.txt");
-            if (!file.exists()) {
-                file.createNewFile();
-            }
-            bw = new BufferedWriter(new FileWriter(file));
 
             HttpEntity entity = response.getEntity();
             if (entity != null) {
                 BufferedReader rd = new BufferedReader(new InputStreamReader(entity.getContent()));
                 ObjectMapper om = new ObjectMapper();
                 String line = "";
-                while ((line = rd.readLine()) != null) {
+                if ((line = rd.readLine()) != null) {
                     line = line.substring(line.indexOf('['));
-                    List<Coupon> coupons = om.readValue(line, 
+                    coupons = om.readValue(line, 
                             new TypeReference<List<Coupon>>(){});
-                    for (Coupon c : coupons) {
-                        logger.info("Processing coupone: " + c.toString());
-                        bw.write(c.getCouponId() + "," + c.getCategory());
-                        bw.newLine();
-                    }
+                }
+                else {
+                    logger.error("There is no data in response");
                 }
                 rd.close();
                 logger.info("It's done");
@@ -75,14 +66,27 @@ public final class App {
             else {
                 logger.error("No body in response");
             }
-        } catch (UnsupportedOperationException e) {
-            logger.error(e.getLocalizedMessage());
-            ;
         } finally {
             if (response != null)
                 response.close();
-            if (bw != null)
-                bw.close();
         }
+        return coupons;
+    }
+    
+    public static void saveCoupons(List<Coupon> coupons, String path) throws IOException {
+        File file = new File(path);
+        if (!file.exists()) {
+            file.createNewFile();
+            logger.info("Created new file: " + path);
+        }
+        
+        BufferedWriter writer = new BufferedWriter(new FileWriter(file));
+        for (Coupon c : coupons) {
+            logger.info("Processing coupone: " + c.toString());
+            writer.write(c.getCouponId() + "," + c.getCategory());
+            writer.newLine();
+        }
+
+        writer.close();
     }
 }
